@@ -14,10 +14,13 @@
 
 /*Font shorthand
 font: font-style font-variant font-weight font-size/line-height font-family;*/
---main-font:/*normal normal var(--main-boldness)*/ var(--main-size) var(--main-font-family);
+--main-font:normal normal var(--main-boldness) var(--main-size) var(--main-font-family);
 
-
-
+/*Colors************************************************/
+--main-font-color:black;
+--accent1:red;
+--accent2:red;
+--accent2:red;
 }
 
 /**/
@@ -35,5 +38,42 @@ h3{
 }
 
 body{
-    background-color: aqua;
+    font:var(--main-font);
+}
+
+footer
+{
+    margin-top: 2%;
+    display: block;
+    background-color:var(--mainFontColor);
+    color:white;
+    float:left;
+    min-width: 94%;
+    max-width:94%;
+    padding:3%;
+    font-family: var(--otherFont);
+    font-weight: var(--titleWeight);
+}
+  @media (max-width: 600px) {
+    .product-card {
+      flex: 1 46%;
+      border-radius: 5%;
+    }
+  }
+footer .miniNav
+{
+    display: flexbox;
+    width: 50%;
+    flex-wrap: wrap;
+
+}
+
+a.active
+{
+    color:var(--accent3);
+}
+
+a:hover
+{
+    color:var(--accent3);
 }
