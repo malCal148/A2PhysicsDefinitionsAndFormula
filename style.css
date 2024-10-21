@@ -1,0 +1,39 @@
+:root{
+/*Fonts**************************************************/
+
+/*Font Families*/
+--main-font-family:"Montserrat", sans-serif;
+
+/*Boldness - weight - yknow what I fucken mean*/
+--main-boldness:400;
+--h1-boldness:900;
+--h2-boldness:700;
+
+/*Font Size*/
+--main-size:3vw;
+
+/*Font shorthand
+font: font-style font-variant font-weight font-size/line-height font-family;*/
+--main-font:/*normal normal var(--main-boldness)*/ var(--main-size) var(--main-font-family);
+
+
+
+}
+
+/**/
+
+h1{
+    font:var(--main-font);
+}
+
+h2{
+    color:red;
+}
+
+h3{
+    color:red;
+}
+
+body{
+    background-color: aqua;
+}
