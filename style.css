@@ -32,7 +32,7 @@ font: font-style font-variant font-weight font-size/line-height font-family;*/
 /**/
 
 h1{
-    font:var(--main-font);
+    font:var(--h1-font);
 }
 
 h2{
