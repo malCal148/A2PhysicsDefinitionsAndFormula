@@ -15,9 +15,12 @@
 --h2-size:2vw;
 --h3-size:1.5vw;
 
+
+
 /*Font shorthand
 font: font-style font-variant font-weight font-size/line-height font-family;*/
 --main-font:normal normal var(--main-boldness) var(--main-size) var(--main-font-family);
+--topnav-link-font:normal normal var(--main-boldness) var(--h2-size) var(--main-font-family);
 --h1-font:normal normal var(--h1-boldness) var(--h1-size) var(--main-font-family);
 --h2-font:normal normal var(--h2-boldness) var(--h2-size) var(--main-font-family);
 --h3-font:normal normal var(--h3-boldness) var(--h3-size) var(--main-font-family);
@@ -27,21 +30,42 @@ font: font-style font-variant font-weight font-size/line-height font-family;*/
 --inverse-main-font-color:white;
 --accent1:red;
 --accent2:red;
---accent2:red;
+--accent3:yellow;
+}
+
+/*Media query font size*/
+@media only screen and (max-width: 600px) {
+  :root {
+    /*Font Size*/
+    --main-size:3vw;
+    --h1-size:5vw;
+    --h2-size:4vw;
+    --h3-size:3vw;
+  }
 }
 
 /**/
+.topic
+{
+  text-align: center;
+}
+
+.topic:nth-child(odd)
+{
+  background-color:var(--accent3);
+  opacity: 0.3;
+}
 
 h1{
     font:var(--h1-font);
 }
 
 h2{
-    color:red;
+    color:var(--accent1);
 }
 
 h3{
-    color:red;
+    color:var(--accent2);
 }
 
 body{
