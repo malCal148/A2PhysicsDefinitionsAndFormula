@@ -24,6 +24,7 @@ font: font-style font-variant font-weight font-size/line-height font-family;*/
 
 /*Colors************************************************/
 --main-font-color:black;
+--inverse-main-font-color:white;
 --accent1:red;
 --accent2:red;
 --accent2:red;
@@ -45,6 +46,26 @@ h3{
 
 body{
     font:var(--main-font);
+}
+
+.topnav
+{
+    width:100%;
+    background-color: var(--main-font-color);
+    color:var(--inverse-main-font-color);
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+.topnav a 
+{
+    width:auto;
+    display: block;
 }
 
 footer
