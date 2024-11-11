@@ -47,7 +47,7 @@ font: font-style font-variant font-weight font-size/line-height font-family;*/
 /**/
 .topic
 {
-  text-align: center;
+  text-align: left;
 }
 
 .topic:nth-child(odd)
