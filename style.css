@@ -58,7 +58,6 @@ body
 .bigSpecPoint:nth-child(odd)
 {
   background-color:var(--accent3);
-  opacity: 0.3;
 }
 
 h1{
@@ -89,7 +88,7 @@ body{
     padding:3%;
     margin:0;
     z-index: 10;
-    width: 97%;
+    width: auto;
     justify-content: space-between;
   }
 
