@@ -4,7 +4,7 @@
 /*Font Families*/
 --main-font-family:"Montserrat", sans-serif;
 
-/*Boldness - weight - yknow what I fucken mean*/
+/*Boldness - weight*/
 --main-boldness:400;
 --h1-boldness:900;
 --h2-boldness:700;
@@ -81,6 +81,7 @@ body{
     font:var(--h1-font);    
     position: sticky;
     top: 0;
+    padding:3%;
     z-index: 100;
     width: 100%;
     justify-content: space-between;
@@ -105,7 +106,7 @@ footer
 {
     margin-top: 2%;
     display: block;
-    background-color:var(--mainFontColor);
+    background-color:black;
     color:white;
     float:left;
     min-width: 94%;
