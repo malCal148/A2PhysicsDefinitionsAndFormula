@@ -10,7 +10,7 @@
 --h2-boldness:700;
 
 /*Font Size*/
---main-size:1vw;
+--main-size:3vw;
 --h1-size:3vw;
 --h2-size:2vw;
 --h3-size:1.5vw;
@@ -53,6 +53,10 @@ body
 .topic
 {
   text-align: left;
+}
+
+.bigSpecPoint{
+  padding:3%;
 }
 
 .bigSpecPoint:nth-child(odd)
