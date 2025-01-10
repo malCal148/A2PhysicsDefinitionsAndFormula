@@ -11,7 +11,7 @@
 
 /*Font Size*/
 --main-size:1vw;
---h1-size:3vw;
+--h1-size:1vw;
 --h2-size:2vw;
 --h3-size:1.5vw;
 
@@ -20,7 +20,7 @@
 /*Font shorthand
 font: font-style font-variant font-weight font-size/line-height font-family;*/
 --main-font:normal normal var(--main-boldness) var(--main-size) var(--main-font-family);
---topnav-link-font:normal normal var(--main-boldness) var(--h2-size) var(--main-font-family);
+--topnav-link-font:normal normal var(--main-boldness) var(--h1-size) var(--main-font-family);
 --h1-font:normal normal var(--h1-boldness) var(--h1-size) var(--main-font-family);
 --h2-font:normal normal var(--h2-boldness) var(--h2-size) var(--main-font-family);
 --h3-font:normal normal var(--h3-boldness) var(--h3-size) var(--main-font-family);
@@ -123,9 +123,9 @@ body{
     font:var(--h1-font);    
     position: sticky;
     top: 0;
-    padding:3%;
+    padding:2%;
     margin:0;
-    z-index: 10;
+    z-index: 1;
     width: auto;
     justify-content: space-between;
   }
