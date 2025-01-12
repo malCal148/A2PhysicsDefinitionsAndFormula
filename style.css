@@ -79,7 +79,7 @@ body
 }
 
 .dropdown:hover .active {
-  background-color: #3e8e41;
+  background-color: var(--main-font-color);
 }
 
 /**/
@@ -117,17 +117,16 @@ body{
 .topnav {
     background-color: var(--main-font-color);
     color: var(--inverse-main-font-color);
-    overflow: hidden;
     display: flex;
     align-items:center;
     font:var(--h1-font);    
     position: sticky;
     top: 0;
-    padding:2%;
+    padding:1%;
     margin:0;
     z-index: 1;
     width: auto;
-    justify-content: space-between;
+    justify-content:flex-start;
   }
 
  
