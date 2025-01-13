@@ -248,6 +248,15 @@
 
         </ul>
         </footer>   
-
+        <script>
+          window.addEventListener('scroll', function() {
+              const topnav = document.getElementById('topnav');
+              if (window.scrollY > 50) {
+                  topnav.classList.add('scrolled');
+              } else {
+                  topnav.classList.remove('scrolled');
+              }
+          });
+      </script>
 </body>
 </html>
