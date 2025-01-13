@@ -124,7 +124,6 @@ body {
 
 h1 {
   font: var(--h1-font);
-  font-size: 2.5em;
   color: var(--accent1);
   margin-bottom: 0.5em;
 }
@@ -178,6 +177,13 @@ h3 {
   padding: 0; /* Remove padding when scrolled */
   flex-direction: row; /* Change to row to display links side by side */
 }
+
+@media only screen and (max-width: 600px) {
+  .topnav.scrolled .title {
+    display:none; /* Hide the title when scrolled */
+  }
+}
+
 
 .topnav.scrolled .title {
   opacity: 0; /* Hide the title when scrolled */
