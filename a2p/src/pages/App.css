@@ -1,0 +1,256 @@
+:root{
+  /*Fonts**************************************************/
+  
+  /*Font Families*/
+  --main-font-family:"Montserrat", sans-serif;
+  
+  /*Boldness - weight*/
+  --main-boldness:400;
+  --h1-boldness:900;
+  --h2-boldness:700;
+  
+  /*Font Size*/
+  --main-size:1.2rem; /* Adjusted font size */
+  --h1-size:2rem; /* Adjusted font size */
+  --h2-size:1.75rem; /* Adjusted font size */
+  --h3-size:1.5rem; /* Adjusted font size */
+  
+  /*Font shorthand
+  font: font-style font-variant font-weight font-size/line-height font-family;*/
+  --main-font:normal normal var(--main-boldness) var(--main-size) var(--main-font-family);
+  --topnav-link-font:normal normal var(--main-boldness) var(--h1-size) var(--main-font-family);
+  --h1-font:normal normal var(--h1-boldness) var(--h1-size) var(--main-font-family);
+  --h2-font:normal normal var(--h2-boldness) var(--h2-size) var(--main-font-family);
+  --h3-font:normal normal var(--h3-boldness) var(--h3-size) var (--main-font-family);
+  
+  /*Colors************************************************/
+  --main-font-color:#333;
+  --inverse-main-font-color:#fff;
+  --accent1:#ffbe0bff; /* Amber */
+  --accent2:#fb5607ff; /* Orange Pantone */
+  --accent3:#ff006eff; /* Rose */
+  --background-color:#f0f0f0; /* Light Gray */
+  --card-background-color:#fff;
+  --card-border-color:none; /* Remove border color */
+  }
+  
+  /*Media query font size*/
+  @media only screen and (max-width: 600px) {
+    :root {
+      /*Font Size*/
+      --main-size:1rem; /* Adjusted font size */
+      --h1-size:1rem; /* Adjusted font size */
+      --h2-size:1rem; /* Adjusted font size */
+      --h3-size:0.75rem; /* Adjusted font size */
+    }
+  }
+  
+  body {
+    margin: 0;
+    font: var(--main-font);
+    scroll-behavior: smooth;
+    background-color: var(--background-color);
+    color: var(--main-font-color);
+    line-height: 1.6;
+    padding-top: 60px; /* Add padding to prevent topnav from covering content */
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--main-font-color); /* Change background color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: none; /* Remove border */
+    padding: 10px 0; /* Add padding for better readability */
+    transition: max-height 0.7s ease, opacity 0.3s ease; /* Add transition for animation */
+    max-height: 0; /* Initially hide the dropdown */
+    opacity: 0; /* Initially hide the dropdown */
+    overflow-y: scroll; /* Hide overflow */
+  }
+  
+  .dropdown-content a {
+    color: var(--inverse-main-font-color); /* Change text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-size: 1.1em; /* Increase font size for better readability */
+  
+  }
+  
+  .dropdown-content a:hover {
+    background-color: var(--accent1);
+    color: var(--inverse-main-font-color); /* Ensure text color remains different */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    max-height: 500px; /* Adjust as needed */
+    opacity: 1; /* Show the dropdown */
+  }
+  
+  .dropdown:hover .active {
+    background-color: var(--main-font-color);
+  }
+  
+  .topic {
+    text-align: left;
+    margin: 2em 0;
+    padding: 1em;
+    background-color: var (--card-background-color);
+    border-radius: 0; /* Remove border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bigSpecPoint {
+    padding: 3%;
+    margin: 1em 0;
+    padding: 1em;
+    background-color: var (--card-background-color);
+    border-radius: 0; /* Remove border radius */
+    border: none; /* Remove border */
+  }
+  
+  .bigSpecPoint:nth-child(odd) {
+    background-color: #e0e0e0; /* Slightly darker gray for odd elements */
+  }
+  
+  h1 {
+    font: var(--h1-font);
+    color: var(--accent1);
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    color: var(--accent2);
+    font-size: 2.2em; /* Increase font size for better readability */
+    margin-bottom: 0.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow for better readability */
+  }
+  
+  h3 {
+    color: var(--accent3);
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .topnav {
+    background-color: var(--main-font-color);
+    color: var(--inverse-main-font-color);
+    display: flex;
+    flex-direction: row; /* Change to column to stack title and links */
+    align-items: left; /* Align content to the left */
+    font: var(--h1-font);
+    position: fixed; /* Keep it at the top */
+    top: 0;
+    width: 100%;
+    padding: 0; /* Remove padding */
+    font-size: 0.9rem; /* Reduce font size */
+    z-index: 1000; /* Ensure it stays on top */
+    justify-content: left; /* Center the content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease, padding 0.5s ease, flex-direction 0.3s ease; /* Add transition for smooth animation */
+  }
+  
+  .topnav .title {
+    font-size: 1.5rem; /* Adjust title font size */
+    margin: 10px 0; /* Add margin for spacing */
+    transition: opacity 0.3s ease; /* Add transition for smooth animation */
+  }
+  
+  .topnav .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center the links */
+    gap: 1em; /* Add gap between links */
+    transition: justify-content 0.3s ease; /* Add transition for smooth animation */
+  }
+  
+  .topnav.scrolled {
+    background-color: var(--accent1); /* Change background color when scrolled */
+    padding: 0; /* Remove padding when scrolled */
+    flex-direction: row; /* Change to row to display links side by side */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .topnav.scrolled .title {
+      display:none; /* Hide the title when scrolled */
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .topnav.scrolled .title {
+      display: none; /* Hide the title when scrolled on wider screens */
+    }
+  }
+  
+  .topnav.scrolled .title {
+    opacity: 0; /* Hide the title when scrolled */
+  }
+  
+  .topnav.scrolled .links {
+    justify-content: flex-start; /* Align links to the left */
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: var(--inverse-main-font-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .topnav a:hover {
+    color: var(--accent2);
+  }
+  
+  footer {
+    margin-top: 2%;
+    display: block;
+    background-color: var(--main-font-color);
+    color: var(--inverse-main-font-color);
+    padding: 0; /* Remove padding */
+    text-align: center;
+    border-top: 4px solid var(--accent1);
+  }
+  
+  footer .miniNav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  footer .miniNav a {
+    color: var(--inverse-main-font-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer .miniNav a:hover {
+    color: var(--accent1);
+  }
+  
+  a.active {
+    color: var(--accent3);
+  }
+  
+  a:hover {
+    color: var(--accent3);
+  }
+  
+  /*Media query to remove side gaps on smaller screens*/
+  @media only screen and (max-width: 600px) {
+    body {
+      padding: 0; /* Remove side gaps */
+      padding-top: 60px; /* Keep top padding */
+    }
+  }

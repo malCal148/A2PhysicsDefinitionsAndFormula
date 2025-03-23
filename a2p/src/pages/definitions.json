@@ -1,0 +1,164 @@
+{
+    "definitions": [
+      {
+        "bigspec": "4.1 Deformation Of Solids",
+        "definitions": [
+          {
+            "spec": "4.1.1 Hookes Law",
+            "title": "Hooke's Law",
+            "definition": "The restoring force is directly proportional to the extension, provided the limit of proportionality is not exceeded."
+          },
+          {
+            "spec": "4.1.2 Elastic Deformation + Plastic Deformation",
+            "title": "Elastic Deformation",
+            "definition": "When the load is removed the material will return to its original length/shape. The material may or may not follow Hooke's law."
+          },
+          {
+            "spec": "4.1.2 Elastic Deformation + Plastic Deformation",
+            "title": "Plastic Deformation",
+            "definition": "The material is extendable but does not follow Hooke's law, any extension is permanent."
+          },
+          {
+            "spec": "4.1.3 Limit of Proportionality Vs Elastic limit",
+            "title": "The Limit Of Proportionality",
+            "definition": "The point to which Hooke's law applies."
+          },
+          {
+            "spec": "4.1.3 Limit of Proportionality Vs Elastic limit",
+            "title": "The Elastic Limit",
+            "definition": "The point after which the material will be permanently extended when unloading."
+          },
+          {
+            "spec": "4.1.4 Stress, Strain + The Young Modulus",
+            "title": "Stress",
+            "definition": "The amount of force applied to a solid over a given area."
+          },
+          {
+            "spec": "4.1.4 Stress, Strain + The Young Modulus",
+            "title": "Strain",
+            "definition": "The ratio of extension to original length."
+          }
+        ]
+      },
+      {
+        "bigspec": "4.2 Thermal Physics",
+        "definitions": [
+          {
+            "spec": "4.2.1 Gas Laws",
+            "title": "Boyle's Law",
+            "definition": "For a fixed mass of gas at constant temperature, the volume is inversely proportional to the applied pressure."
+          },
+          {
+            "spec": "4.2.1 Gas Laws",
+            "title": "Charles Law",
+            "definition": "For a fixed mass of gas at constant pressure, the volume is directly proportional to the Kelvin temperature."
+          },
+          {
+            "spec": "4.2.1 Gas Laws",
+            "title": "Gay-Lussac Law",
+            "definition": "For a fixed mass of gas at constant volume, the pressure is directly proportional to the Kelvin temperature."
+          },
+          {
+            "spec": "4.2.4 Internal Energy",
+            "title": "Internal Energy - For a real gas",
+            "definition": "The sum of the potential and kinetic energy for its molecules."
+          },
+          {
+            "spec": "4.2.4 Internal Energy",
+            "title": "Internal Energy - For an ideal gas",
+            "definition": "The sum of the kinetic energy for its molecules."
+          },
+          {
+            "spec": "4.2.7 Absolute Zero",
+            "title": "Absolute Zero",
+            "definition": "The temperature at which all molecular motion stops approx -273.16°C (for calculations -273°C is sufficient)."
+          },
+          {
+            "spec": "4.2.8 Specific Heat Capacity",
+            "title": "Specific Heat Capacity",
+            "definition": "The quantity of heat energy needed to rise the temperature of 1kg of the material by 1k."
+          }
+        ]
+      },
+      {
+        "bigspec": "4.3 Uniform Circular Motion",
+        "definitions": [
+          {
+            "spec": "4.3.1 Angular Velocity",
+            "title": "Angular Velocity",
+            "definition": "The angle turned through over the time taken."
+          }
+        ]
+      },
+      {
+        "bigspec": "4.4 Simple Harmonic Motion",
+        "definitions": [
+          {
+            "spec": "4.4.1 Simple Harmonic Motion",
+            "title": "Simple Harmonic Motion (SHM)",
+            "definition": "If an object's acceleration is directly proportional to its displacement from its rest position and is always directed towards that position then it is undergoing simple harmonic motion."
+          },
+          {
+            "spec": "4.4.6 Free Vibration",
+            "title": "Free vibration",
+            "definition": "Anything that is vibrating without an external driving force. It will oscillate at its natural frequency."
+          },
+          {
+            "spec": "4.4.6 Free Vibration",
+            "title": "Natural Frequency",
+            "definition": "This is the frequency that an oscillator will vibrate at when allowed to freely oscillate. Denoted as $$f_o$$."
+          },
+          {
+            "spec": "4.4.6 Free Vibration",
+            "title": "Forced Oscillation",
+            "definition": "A vibration that is being made to happen by an external driving force."
+          },
+          {
+            "spec": "4.4.6 Free Vibration",
+            "title": "Driving frequency",
+            "definition": "The frequency of the application of the force in a forced oscillation."
+          },
+          {
+            "spec": "4.4.6 Free Vibration",
+            "title": "Resonance",
+            "definition": "The phenomenon that occurs when the driving frequency is equal to the natural frequency. This leads to the maximum of transfer of energy into the system."
+          },
+          {
+            "spec": "4.4.6 Dampening",
+            "title": "Light damping",
+            "definition": "This is when the oscillation comes to rest but performs a negative displacement in the process."
+          },
+          {
+            "spec": "4.4.6 Dampening",
+            "title": "Critical damping",
+            "definition": "The oscillation comes to rest without oscillating in the fastest possible time, given by $$\\frac{T}{4}$$."
+          },
+          {
+            "spec": "4.4.6 Dampening",
+            "title": "Heavy / Over damping",
+            "definition": "The oscillation comes to rest without oscillating in a time greater than $$\\frac{T}{4}$$."
+          }
+        ]
+      },
+      {
+        "bigspec": "4.6 Nuclear Decay",
+        "definitions": [
+          {
+            "spec": "4.6.7 Half life",
+            "title": "Half life",
+            "definition": "The time taken for the activity/no. of undecayed radioactive nuclei/current measured on a geiger tube circuit measuring a radioactive substance to fall to half of its original value."
+          }
+        ]
+      },
+      {
+        "bigspec": "5.1 Force Fields",
+        "definitions": [
+          {
+            "spec": "5.1.1 Field of Force",
+            "title": "Field of Force",
+            "definition": ""
+          }
+        ]
+      }
+    ]
+  }
