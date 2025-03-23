@@ -1,0 +1,314 @@
+{
+    "formulas": [
+      {
+        "bigspec": "4.1 Deformation Of Solids",
+        "formulas": [
+          {
+            "spec": "4.1.1 Hooke's Law",
+            "title": "Hooke's Law",
+            "formula": "$$F = kx$$"
+          },
+          {
+            "spec": "4.1.2 Stress",
+            "title": "Stress",
+            "formula": "$$\\sigma = \\frac{F}{A}$$"
+          },
+          {
+            "spec": "4.1.3 Strain",
+            "title": "Strain",
+            "formula": "$$\\sigma = \\frac{\\Delta l}{l_o}$$"
+          },
+          {
+            "spec": "4.1.4 Young Modulus",
+            "title": "Young Modulus",
+            "formula": "$$E = \\frac{Fl}{Ae}$$"
+          },
+          {
+            "spec": "4.1.5 Strain Energy",
+            "title": "Strain Energy",
+            "formula": "$$E_{strain} = \\frac{1}{2}Kx^2$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "4.2 Thermal Physics",
+        "formulas": [
+          {
+            "spec": "4.2.1 Boyle's Law",
+            "title": "Boyle's Law",
+            "formula": "$$P \\propto \\frac{1}{V}$$"
+          },
+          {
+            "spec": "4.2.2 Charles Law",
+            "title": "Charles Law",
+            "formula": "$$V \\propto T$$"
+          },
+          {
+            "spec": "4.2.3 Gay-Lussac/Pressure Law",
+            "title": "Gay-Lussac/Pressure Law",
+            "formula": "$$P \\propto T$$"
+          },
+          {
+            "spec": "4.2.4 Combined Gas Law",
+            "title": "Combined Gas Law",
+            "formula": "$$\\frac{PV}{T} = K$$"
+          },
+          {
+            "spec": "4.2.5 Closed System",
+            "title": "Closed System",
+            "formula": "$$\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}$$"
+          },
+          {
+            "spec": "4.2.6 Combined Gas Laws",
+            "title": "Combined Gas Laws",
+            "formula": "$$PV = NkT$$, $$PV = nAKT$$, $$PV = nRT$$"
+          },
+          {
+            "spec": "4.2.7 Thermal Energy Equation",
+            "title": "Thermal Energy Equation",
+            "formula": "$$PV = \\frac{1}{3}Nm< c^2 >$$"
+          },
+          {
+            "spec": "4.2.8 Specific Heat Capacity",
+            "title": "Specific Heat Capacity",
+            "formula": "$$\\Delta{Q} = mc\\Delta\\theta$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "4.3 Uniform Circular Motion",
+        "formulas": [
+          {
+            "spec": "4.3.1 Angular Velocity",
+            "title": "Angular Velocity",
+            "formula": "$$\\omega = \\frac{\\theta}{t}$$, $$\\theta = \\frac{s}{t}$$, $$\\omega = \\frac{2\\pi}{T}$$, $$\\omega = 2\\pi f$$"
+          },
+          {
+            "spec": "4.3.2 Tangential Velocity",
+            "title": "Tangential Velocity",
+            "formula": "$$V = r\\omega$$"
+          },
+          {
+            "spec": "4.3.3 Acceleration",
+            "title": "Acceleration",
+            "formula": "$$a = \\frac{v^2}{r}$$, $$a = r\\omega^2$$"
+          },
+          {
+            "spec": "4.3.4 Forces",
+            "title": "Forces",
+            "formula": "$$F = \\frac{mv^2}{r}$$, $$F = mr\\omega^2$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "4.4 Simple Harmonic Motion",
+        "formulas": [
+          {
+            "spec": "4.4.1 Simple Harmonic Motion",
+            "title": "Simple Harmonic Motion",
+            "formula": "$$\\cos{\\theta} = \\frac{x}{A}$$, $$x = A\\cos({\\omega}t)$$, $$a = -\\omega^{2}x$$"
+          },
+          {
+            "spec": "4.4.2 Free Vibration",
+            "title": "Free Vibration",
+            "formula": "$$f_o = \\frac{1}{T}$$, $$T = \\frac{2\\pi}{\\omega}$$, $$f_o = \\frac{\\omega}{2\\pi}$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "4.5 The Nucleus",
+        "formulas": [
+          {
+            "spec": "4.5.1 Radius of a Nucleus",
+            "title": "Radius of a Nucleus",
+            "formula": "$$r = r_oA^\\frac{1}{3}$$"
+          },
+          {
+            "spec": "4.5.2 Number of radioactive nuclei present",
+            "title": "Number of radioactive nuclei present",
+            "formula": "$$N_t = N_oe^{\\lambda t}$$"
+          },
+          {
+            "spec": "4.5.3 Number of Activity",
+            "title": "Number of Activity",
+            "formula": "$$A_t = A_oe^{\\lambda t}$$"
+          },
+          {
+            "spec": "4.5.4 Current",
+            "title": "Current",
+            "formula": "$$I_t = I_oe^{\\lambda t}$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "4.6 Nuclear Decay",
+        "formulas": [
+          {
+            "spec": "4.6.1 Half Life",
+            "title": "Half Life",
+            "formula": "$$t_{\\frac{1}{2}} = \\frac{0.693}{\\lambda}$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "4.7 Nuclear Energy",
+        "formulas": [
+          {
+            "spec": "4.7.1 Einstien's Equation",
+            "title": "Einstien's Equation",
+            "formula": "$$E = \\delta mc^2$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "4.8 Nuclear Fission + Fusion",
+        "formulas": [
+          {
+            "spec": "4.8.1 No Formula",
+            "title": "No Formula",
+            "formula": ""
+          }
+        ]
+      },
+      {
+        "bigspec": "5.1 Force Fields",
+        "formulas": [
+          {
+            "spec": "5.1.1 No Formula",
+            "title": "No Formula",
+            "formula": ""
+          }
+        ]
+      },
+      {
+        "bigspec": "5.2 Gravitational Fields",
+        "formulas": [
+          {
+            "spec": "5.2.1 Gravitational Field Strength",
+            "title": "Gravitational Field Strength",
+            "formula": "$$g = \\frac{F}{m}$$"
+          },
+          {
+            "spec": "5.2.2 Gravitational Force",
+            "title": "Gravitational Force",
+            "formula": "$$F = \\frac{GM}{r^2}$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "5.3 Electric Fields",
+        "formulas": [
+          {
+            "spec": "5.3.1 Electric Field Strength",
+            "title": "Electric Field Strength",
+            "formula": "$$E = \\frac{F}{q}$$"
+          },
+          {
+            "spec": "5.3.2 Coulomb's Law",
+            "title": "Coulomb's Law",
+            "formula": "$$F = \\frac{q_1 q_2}{4\\pi\\epsilon_0 r^2} = \\frac{kq_1 q_2}{r^2} k = \\frac{1}{4\\pi\\epsilon_0}$$"
+          },
+          {
+            "spec": "5.3.3 Electric Field Due to a Point Charge",
+            "title": "Electric Field Due to a Point Charge",
+            "formula": "$$E = \\frac{q}{4\\pi\\epsilon_0 r^2} = \\frac{kq}{r^2}$$"
+          },
+          {
+            "spec": "5.3.4 Electric Potential",
+            "title": "Electric Potential",
+            "formula": "$$E = \\frac{V}{d}$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "5.4 Capacitors",
+        "formulas": [
+          {
+            "spec": "5.4.1 Capacitance",
+            "title": "Capacitance",
+            "formula": "$$C = \\frac{Q}{V}$$"
+          },
+          {
+            "spec": "5.4.2 Energy Stored in a Capacitor",
+            "title": "Energy Stored in a Capacitor",
+            "formula": "$$\\frac{1}{2}QV$$"
+          },
+          {
+            "spec": "5.4.3 Charge Decay",
+            "title": "Charge Decay",
+            "formula": "$$Q = Q_oe^{-\\frac{t}{RC}}$$"
+          },
+          {
+            "spec": "5.4.4 Voltage Decay",
+            "title": "Voltage Decay",
+            "formula": "$$V = V_oe^{-\\frac{t}{RC}}$$"
+          },
+          {
+            "spec": "5.4.5 Current Decay",
+            "title": "Current Decay",
+            "formula": "$$I = I_oe^{-\\frac{t}{RC}}$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "5.5 Magnetic Fields",
+        "formulas": [
+          {
+            "spec": "5.5.1 Force on a Current-Carrying Wire",
+            "title": "Force on a Current-Carrying Wire",
+            "formula": "$$F = BIL$$"
+          },
+          {
+            "spec": "5.5.2 Magnetic Flux",
+            "title": "Magnetic Flux",
+            "formula": "$$\\phi = BA$$"
+          },
+          {
+            "spec": "5.5.3 Magnetic Flux Linkage",
+            "title": "Magnetic Flux Linkage",
+            "formula": "$$N\\phi = NBA$$"
+          },
+          {
+            "spec": "5.5.4 A.C. Generator",
+            "title": "A.C. Generator",
+            "formula": "$$E = BAN\\omega\\sin\\omega$$"
+          },
+          {
+            "spec": "5.5.5 Transformer Equation",
+            "title": "Transformer Equation",
+            "formula": "$$\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_s}{I_p}$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "5.6 Deflection of Charged Particles",
+        "formulas": [
+          {
+            "spec": "5.6.1 Force and Direction of a Particle",
+            "title": "Force and Direction of a Particle",
+            "formula": "$$F = qE$$, $$F = BqV$$"
+          }
+        ]
+      },
+      {
+        "bigspec": "5.7 Particle Accelerators",
+        "formulas": [
+          {
+            "spec": "5.7.1 No Formula",
+            "title": "No Formula",
+            "formula": ""
+          }
+        ]
+      },
+      {
+        "bigspec": "5.8 Fundamental Particles",
+        "formulas": [
+          {
+            "spec": "5.8.1 No Formula",
+            "title": "No Formula",
+            "formula": ""
+          }
+        ]
+      }
+    ]
+  }
