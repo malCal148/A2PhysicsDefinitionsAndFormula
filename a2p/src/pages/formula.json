@@ -1,0 +1,565 @@
+{
+  "formulas": [
+    {
+      "bigspec": "4.1 Deformation Of Solids",
+      "formulas": [
+        {
+          "spec": "4.1.1 Hooke's Law",
+          "title": "Hooke's Law",
+          "formula": "F = kx",
+          "definitions": {
+            "F": "Force (measured in Newtons, N)",
+            "k": "Spring constant (measured in N/m)",
+            "x": "Extension (measured in meters, m)"
+          }
+        },
+        {
+          "spec": "4.1.2 Stress",
+          "title": "Stress",
+          "formula": "\\sigma = \\frac{F}{A}",
+          "definitions": {
+            "\\sigma": "Stress (measured in Pascals, Pa)",
+            "F": "Force (measured in Newtons, N)",
+            "A": "Cross-sectional area (measured in square meters, m²)"
+          }
+        },
+        {
+          "spec": "4.1.3 Strain",
+          "title": "Strain",
+          "formula": "\\sigma = \\frac{\\Delta l}{l_o}",
+          "definitions": {
+            "\\sigma": "Strain (dimensionless)",
+            "\\Delta l": "Change in length (measured in meters, m)",
+            "l_o": "Original length (measured in meters, m)"
+          }
+        },
+        {
+          "spec": "4.1.4 Young Modulus",
+          "title": "Young Modulus",
+          "formula": "E = \\frac{Fl}{Ae}",
+          "definitions": {
+            "E": "Young's modulus (measured in Pascals, Pa)",
+            "F": "Force (measured in Newtons, N)",
+            "l": "Original length (measured in meters, m)",
+            "A": "Cross-sectional area (measured in square meters, m²)",
+            "e": "Extension (measured in meters, m)"
+          }
+        },
+        {
+          "spec": "4.1.5 Strain Energy",
+          "title": "Strain Energy",
+          "formula": "E_{strain} = \\frac{1}{2}Kx^2",
+          "definitions": {
+            "E_{strain}": "Strain energy (measured in Joules, J)",
+            "K": "Spring constant (measured in N/m)",
+            "x": "Extension (measured in meters, m)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "4.2 Thermal Physics",
+      "formulas": [
+        {
+          "spec": "4.2.1 Boyle's Law",
+          "title": "Boyle's Law",
+          "formula": "P \\propto \\frac{1}{V}",
+          "definitions": {
+            "P": "Pressure (measured in Pascals, Pa)",
+            "V": "Volume (measured in cubic meters, m³)"
+          }
+        },
+        {
+          "spec": "4.2.2 Charles Law",
+          "title": "Charles Law",
+          "formula": "V \\propto T",
+          "definitions": {
+            "V": "Volume (measured in cubic meters, m³)",
+            "T": "Temperature (measured in Kelvin, K)"
+          }
+        },
+        {
+          "spec": "4.2.3 Gay-Lussac/Pressure Law",
+          "title": "Gay-Lussac/Pressure Law",
+          "formula": "P \\propto T",
+          "definitions": {
+            "P": "Pressure (measured in Pascals, Pa)",
+            "T": "Temperature (measured in Kelvin, K)"
+          }
+        },
+        {
+          "spec": "4.2.4 Combined Gas Law",
+          "title": "Combined Gas Law",
+          "formula": "\\frac{PV}{T} = K",
+          "definitions": {
+            "P": "Pressure (measured in Pascals, Pa)",
+            "V": "Volume (measured in cubic meters, m³)",
+            "T": "Temperature (measured in Kelvin, K)",
+            "K": "Constant"
+          }
+        },
+        {
+          "spec": "4.2.5 Closed System",
+          "title": "Closed System",
+          "formula": "\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}",
+          "definitions": {
+            "P_1": "Initial pressure (measured in Pascals, Pa)",
+            "V_1": "Initial volume (measured in cubic meters, m³)",
+            "T_1": "Initial temperature (measured in Kelvin, K)",
+            "P_2": "Final pressure (measured in Pascals, Pa)",
+            "V_2": "Final volume (measured in cubic meters, m³)",
+            "T_2": "Final temperature (measured in Kelvin, K)"
+          }
+        },
+        {
+          "spec": "4.2.6 Combined Gas Laws",
+          "title": "Combined Gas Laws",
+          "formula": "PV = NkT, PV = nAKT, PV = nRT",
+          "definitions": {
+            "P": "Pressure (measured in Pascals, Pa)",
+            "V": "Volume (measured in cubic meters, m³)",
+            "N": "Number of molecules",
+            "k": "Boltzmann constant (measured in J/K)",
+            "T": "Temperature (measured in Kelvin, K)",
+            "n": "Number of moles",
+            "A": "Avogadro's constant",
+            "R": "Universal gas constant (measured in J/(mol·K))"
+          }
+        },
+        {
+          "spec": "4.2.7 Thermal Energy Equation",
+          "title": "Thermal Energy Equation",
+          "formula": "PV = \\frac{1}{3}Nm< c^2 >",
+          "definitions": {
+            "P": "Pressure (measured in Pascals, Pa)",
+            "V": "Volume (measured in cubic meters, m³)",
+            "N": "Number of molecules",
+            "m": "Mass of one molecule (measured in kilograms, kg)",
+            "< c^2 >": "Mean square speed of molecules (measured in m²/s²)"
+          }
+        },
+        {
+          "spec": "4.2.8 Specific Heat Capacity",
+          "title": "Specific Heat Capacity",
+          "formula": "\\Delta{Q} = mc\\Delta\\theta",
+          "definitions": {
+            "\\Delta{Q}": "Heat energy transferred (measured in Joules, J)",
+            "m": "Mass (measured in kilograms, kg)",
+            "c": "Specific heat capacity (measured in J/(kg·K))",
+            "\\Delta\\theta": "Change in temperature (measured in Kelvin, K)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "4.3 Uniform Circular Motion",
+      "formulas": [
+        {
+          "spec": "4.3.1 Angular Velocity",
+          "title": "Angular Velocity",
+          "formula": "\\omega = \\frac{\\theta}{t}, \\theta = \\frac{s}{t}, \\omega = \\frac{2\\pi}{T}, \\omega = 2\\pi f",
+          "definitions": {
+            "\\omega": "Angular velocity (measured in radians per second, rad/s)",
+            "\\theta": "Angular displacement (measured in radians, rad)",
+            "t": "Time (measured in seconds, s)",
+            "T": "Time period (measured in seconds, s)",
+            "f": "Frequency (measured in Hertz, Hz)"
+          }
+        },
+        {
+          "spec": "4.3.2 Tangential Velocity",
+          "title": "Tangential Velocity",
+          "formula": "V = r\\omega",
+          "definitions": {
+            "V": "Tangential velocity (measured in meters per second, m/s)",
+            "r": "Radius (measured in meters, m)",
+            "\\omega": "Angular velocity (measured in radians per second, rad/s)"
+          }
+        },
+        {
+          "spec": "4.3.3 Acceleration",
+          "title": "Acceleration",
+          "formula": "a = \\frac{v^2}{r}, a = r\\omega^2",
+          "definitions": {
+            "a": "Acceleration (measured in meters per second squared, m/s²)",
+            "v": "Tangential velocity (measured in meters per second, m/s)",
+            "r": "Radius (measured in meters, m)",
+            "\\omega": "Angular velocity (measured in radians per second, rad/s)"
+          }
+        },
+        {
+          "spec": "4.3.4 Forces",
+          "title": "Forces",
+          "formula": "F = \\frac{mv^2}{r}, F = mr\\omega^2",
+          "definitions": {
+            "F": "Force (measured in Newtons, N)",
+            "m": "Mass (measured in kilograms, kg)",
+            "v": "Tangential velocity (measured in meters per second, m/s)",
+            "r": "Radius (measured in meters, m)",
+            "\\omega": "Angular velocity (measured in radians per second, rad/s)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "4.4 Simple Harmonic Motion",
+      "formulas": [
+        {
+          "spec": "4.4.1 Simple Harmonic Motion",
+          "title": "Simple Harmonic Motion",
+          "formula": "\\cos{\\theta} = \\frac{x}{A}, x = A\\cos({\\omega}t), a = -\\omega^{2}x",
+          "definitions": {
+            "\\theta": "Phase angle (measured in radians, rad)",
+            "x": "Displacement (measured in meters, m)",
+            "A": "Amplitude (measured in meters, m)",
+            "\\omega": "Angular velocity (measured in radians per second, rad/s)",
+            "t": "Time (measured in seconds, s)",
+            "a": "Acceleration (measured in meters per second squared, m/s²)"
+          }
+        },
+        {
+          "spec": "4.4.2 Free Vibration",
+          "title": "Free Vibration",
+          "formula": "f_o = \\frac{1}{T}, T = \\frac{2\\pi}{\\omega}, f_o = \\frac{\\omega}{2\\pi}",
+          "definitions": {
+            "f_o": "Natural frequency (measured in Hertz, Hz)",
+            "T": "Time period (measured in seconds, s)",
+            "\\omega": "Angular velocity (measured in radians per second, rad/s)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "4.5 The Nucleus",
+      "formulas": [
+        {
+          "spec": "4.5.1 Radius of a Nucleus",
+          "title": "Radius of a Nucleus",
+          "formula": "r = r_oA^\\frac{1}{3}",
+          "definitions": {
+            "r": "Radius of the nucleus (measured in meters, m)",
+            "r_o": "Constant (measured in meters, m)",
+            "A": "Mass number"
+          }
+        },
+        {
+          "spec": "4.5.2 Number of radioactive nuclei present",
+          "title": "Number of radioactive nuclei present",
+          "formula": "N_t = N_oe^{\\lambda t}",
+          "definitions": {
+            "N_t": "Number of radioactive nuclei at time t",
+            "N_o": "Initial number of radioactive nuclei",
+            "\\lambda": "Decay constant (measured in per second, s⁻¹)",
+            "t": "Time (measured in seconds, s)"
+          }
+        },
+        {
+          "spec": "4.5.3 Number of Activity",
+          "title": "Number of Activity",
+          "formula": "A_t = A_oe^{\\lambda t}",
+          "definitions": {
+            "A_t": "Activity at time t (measured in Becquerels, Bq)",
+            "A_o": "Initial activity (measured in Becquerels, Bq)",
+            "\\lambda": "Decay constant (measured in per second, s⁻¹)",
+            "t": "Time (measured in seconds, s)"
+          }
+        },
+        {
+          "spec": "4.5.4 Current",
+          "title": "Current",
+          "formula": "I_t = I_oe^{\\lambda t}",
+          "definitions": {
+            "I_t": "Current at time t (measured in Amperes, A)",
+            "I_o": "Initial current (measured in Amperes, A)",
+            "\\lambda": "Decay constant (measured in per second, s⁻¹)",
+            "t": "Time (measured in seconds, s)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "4.6 Nuclear Decay",
+      "formulas": [
+        {
+          "spec": "4.6.1 Half Life",
+          "title": "Half Life",
+          "formula": "t_{\\frac{1}{2}} = \\frac{0.693}{\\lambda}",
+          "definitions": {
+            "t_{\\frac{1}{2}}": "Half-life (measured in seconds, s)",
+            "\\lambda": "Decay constant (measured in per second, s⁻¹)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "4.7 Nuclear Energy",
+      "formulas": [
+        {
+          "spec": "4.7.1 Einstien's Equation",
+          "title": "Einstien's Equation",
+          "formula": "E = \\delta mc^2",
+          "definitions": {
+            "E": "Energy (measured in Joules, J)",
+            "\\delta m": "Change in mass (measured in kilograms, kg)",
+            "c": "Speed of light in vacuum (measured in meters per second, m/s)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "4.8 Nuclear Fission + Fusion",
+      "formulas": [
+        {
+          "spec": "4.8.1 No Formula",
+          "title": "No Formula",
+          "formula": ""
+        }
+      ]
+    },
+    {
+      "bigspec": "5.1 Force Fields",
+      "formulas": [
+        {
+          "spec": "5.1.1 No Formula",
+          "title": "No Formula",
+          "formula": ""
+        }
+      ]
+    },
+    {
+      "bigspec": "5.2 Gravitational Fields",
+      "formulas": [
+        {
+          "spec": "5.2.1 Gravitational Field Strength",
+          "title": "Gravitational Field Strength",
+          "formula": "g = \\frac{F}{m}",
+          "definitions": {
+            "g": "Gravitational field strength (measured in meters per second squared, m/s²)",
+            "F": "Force (measured in Newtons, N)",
+            "m": "Mass (measured in kilograms, kg)"
+          }
+        },
+        {
+          "spec": "5.2.2 Gravitational Force",
+          "title": "Gravitational Force",
+          "formula": "F = \\frac{GM}{r^2}",
+          "definitions": {
+            "F": "Force (measured in Newtons, N)",
+            "G": "Gravitational constant (measured in N·m²/kg²)",
+            "M": "Mass (measured in kilograms, kg)",
+            "r": "Distance (measured in meters, m)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "5.3 Electric Fields",
+      "formulas": [
+        {
+          "spec": "5.3.1 Electric Field Strength",
+          "title": "Electric Field Strength",
+          "formula": "E = \\frac{F}{q}",
+          "definitions": {
+            "E": "Electric field strength (measured in Newtons per Coulomb, N/C)",
+            "F": "Force (measured in Newtons, N)",
+            "q": "Charge (measured in Coulombs, C)"
+          }
+        },
+        {
+          "spec": "5.3.2 Coulomb's Law",
+          "title": "Coulomb's Law",
+          "formula": "F = \\frac{q_1 q_2}{4\\pi\\epsilon_0 r^2} = \\frac{kq_1 q_2}{r^2} k = \\frac{1}{4\\pi\\epsilon_0}",
+          "definitions": {
+            "F": "Force (measured in Newtons, N)",
+            "q_1": "Charge of the first object (measured in Coulombs, C)",
+            "q_2": "Charge of the second object (measured in Coulombs, C)",
+            "\\epsilon_0": "Permittivity of free space (measured in F/m)",
+            "r": "Distance between the charges (measured in meters, m)",
+            "k": "Coulomb's constant (measured in N·m²/C²)"
+          }
+        },
+        {
+          "spec": "5.3.3 Electric Field Due to a Point Charge",
+          "title": "Electric Field Due to a Point Charge",
+          "formula": "E = \\frac{q}{4\\pi\\epsilon_0 r^2} = \\frac{kq}{r^2}",
+          "definitions": {
+            "E": "Electric field strength (measured in Newtons per Coulomb, N/C)",
+            "q": "Charge (measured in Coulombs, C)",
+            "\\epsilon_0": "Permittivity of free space (measured in F/m)",
+            "r": "Distance from the charge (measured in meters, m)",
+            "k": "Coulomb's constant (measured in N·m²/C²)"
+          }
+        },
+        {
+          "spec": "5.3.4 Electric Potential",
+          "title": "Electric Potential",
+          "formula": "E = \\frac{V}{d}",
+          "definitions": {
+            "E": "Electric field strength (measured in Newtons per Coulomb, N/C)",
+            "V": "Electric potential (measured in Volts, V)",
+            "d": "Distance (measured in meters, m)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "5.4 Capacitors",
+      "formulas": [
+        {
+          "spec": "5.4.1 Capacitance",
+          "title": "Capacitance",
+          "formula": "C = \\frac{Q}{V}",
+          "definitions": {
+            "C": "Capacitance (measured in Farads, F)",
+            "Q": "Charge (measured in Coulombs, C)",
+            "V": "Voltage (measured in Volts, V)"
+          }
+        },
+        {
+          "spec": "5.4.2 Energy Stored in a Capacitor",
+          "title": "Energy Stored in a Capacitor",
+          "formula": "\\frac{1}{2}QV",
+          "definitions": {
+            "Q": "Charge (measured in Coulombs, C)",
+            "V": "Voltage (measured in Volts, V)"
+          }
+        },
+        {
+          "spec": "5.4.3 Charge Decay",
+          "title": "Charge Decay",
+          "formula": "Q = Q_oe^{-\\frac{t}{RC}}",
+          "definitions": {
+            "Q": "Charge at time t (measured in Coulombs, C)",
+            "Q_o": "Initial charge (measured in Coulombs, C)",
+            "t": "Time (measured in seconds, s)",
+            "R": "Resistance (measured in Ohms, Ω)",
+            "C": "Capacitance (measured in Farads, F)"
+          }
+        },
+        {
+          "spec": "5.4.4 Voltage Decay",
+          "title": "Voltage Decay",
+          "formula": "V = V_oe^{-\\frac{t}{RC}}",
+          "definitions": {
+            "V": "Voltage at time t (measured in Volts, V)",
+            "V_o": "Initial voltage (measured in Volts, V)",
+            "t": "Time (measured in seconds, s)",
+            "R": "Resistance (measured in Ohms, Ω)",
+            "C": "Capacitance (measured in Farads, F)"
+          }
+        },
+        {
+          "spec": "5.4.5 Current Decay",
+          "title": "Current Decay",
+          "formula": "I = I_oe^{-\\frac{t}{RC}}",
+          "definitions": {
+            "I": "Current at time t (measured in Amperes, A)",
+            "I_o": "Initial current (measured in Amperes, A)",
+            "t": "Time (measured in seconds, s)",
+            "R": "Resistance (measured in Ohms, Ω)",
+            "C": "Capacitance (measured in Farads, F)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "5.5 Magnetic Fields",
+      "formulas": [
+        {
+          "spec": "5.5.1 Force on a Current-Carrying Wire",
+          "title": "Force on a Current-Carrying Wire",
+          "formula": "F = BIL",
+          "definitions": {
+            "F": "Force (measured in Newtons, N)",
+            "B": "Magnetic field strength (measured in Teslas, T)",
+            "I": "Current (measured in Amperes, A)",
+            "L": "Length of the wire (measured in meters, m)"
+          }
+        },
+        {
+          "spec": "5.5.2 Magnetic Flux",
+          "title": "Magnetic Flux",
+          "formula": "\\phi = BA",
+          "definitions": {
+            "\\phi": "Magnetic flux (measured in Webers, Wb)",
+            "B": "Magnetic field strength (measured in Teslas, T)",
+            "A": "Area (measured in square meters, m²)"
+          }
+        },
+        {
+          "spec": "5.5.3 Magnetic Flux Linkage",
+          "title": "Magnetic Flux Linkage",
+          "formula": "N\\phi = NBA",
+          "definitions": {
+            "N": "Number of turns",
+            "\\phi": "Magnetic flux (measured in Webers, Wb)",
+            "B": "Magnetic field strength (measured in Teslas, T)",
+            "A": "Area (measured in square meters, m²)"
+          }
+        },
+        {
+          "spec": "5.5.4 A.C. Generator",
+          "title": "A.C. Generator",
+          "formula": "E = BAN\\omega\\sin\\omega",
+          "definitions": {
+            "E": "Electromotive force (measured in Volts, V)",
+            "B": "Magnetic field strength (measured in Teslas, T)",
+            "A": "Area (measured in square meters, m²)",
+            "N": "Number of turns",
+            "\\omega": "Angular velocity (measured in radians per second, rad/s)"
+          }
+        },
+        {
+          "spec": "5.5.5 Transformer Equation",
+          "title": "Transformer Equation",
+          "formula": "\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_s}{I_p}",
+          "definitions": {
+            "V_s": "Secondary voltage (measured in Volts, V)",
+            "V_p": "Primary voltage (measured in Volts, V)",
+            "N_s": "Number of turns in the secondary coil",
+            "N_p": "Number of turns in the primary coil",
+            "I_s": "Secondary current (measured in Amperes, A)",
+            "I_p": "Primary current (measured in Amperes, A)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "5.6 Deflection of Charged Particles",
+      "formulas": [
+        {
+          "spec": "5.6.1 Force and Direction of a Particle",
+          "title": "Force and Direction of a Particle",
+          "formula": "F = qE, F = BqV",
+          "definitions": {
+            "F": "Force (measured in Newtons, N)",
+            "q": "Charge (measured in Coulombs, C)",
+            "E": "Electric field strength (measured in Newtons per Coulomb, N/C)",
+            "B": "Magnetic field strength (measured in Teslas, T)",
+            "V": "Velocity (measured in meters per second, m/s)"
+          }
+        }
+      ]
+    },
+    {
+      "bigspec": "5.7 Particle Accelerators",
+      "formulas": [
+        {
+          "spec": "5.7.1 No Formula",
+          "title": "No Formula",
+          "formula": ""
+        }
+      ]
+    },
+    {
+      "bigspec": "5.8 Fundamental Particles",
+      "formulas": [
+        {
+          "spec": "5.8.1 No Formula",
+          "title": "No Formula",
+          "formula": ""
+        }
+      ]
+    }
+  ]
+}
