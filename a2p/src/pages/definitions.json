@@ -106,7 +106,7 @@
           {
             "spec": "4.4.6 Free Vibration",
             "title": "Natural Frequency",
-            "definition": "This is the frequency that an oscillator will vibrate at when allowed to freely oscillate. Denoted as $$f_o$$."
+            "definition": "This is the frequency that an oscillator will vibrate at when allowed to freely oscillate. Denoted as f_o."
           },
           {
             "spec": "4.4.6 Free Vibration",
@@ -131,12 +131,12 @@
           {
             "spec": "4.4.6 Dampening",
             "title": "Critical damping",
-            "definition": "The oscillation comes to rest without oscillating in the fastest possible time, given by $$\\frac{T}{4}$$."
+            "definition": "The oscillation comes to rest without oscillating in the fastest possible time, given by T/4."
           },
           {
             "spec": "4.4.6 Dampening",
             "title": "Heavy / Over damping",
-            "definition": "The oscillation comes to rest without oscillating in a time greater than $$\\frac{T}{4}$$."
+            "definition": "The oscillation comes to rest without oscillating in a time greater than T/4."
           }
         ]
       },
@@ -156,9 +156,86 @@
           {
             "spec": "5.1.1 Field of Force",
             "title": "Field of Force",
-            "definition": ""
+            "definition": "A region of space where an object experiences a force."
+          }
+        ]
+      },
+      {
+        "bigspec": "5.2 Gravitational Fields",
+        "definitions": [
+          {
+            "spec": "5.2.1 Gravitational Field Strength",
+            "title": "Gravitational Field Strength",
+            "definition": "The force experienced by a unit mass placed in the field."
+          },
+          {
+            "spec": "5.2.2 Gravitational Potential",
+            "title": "Gravitational Potential",
+            "definition": "The work done in bringing a unit mass from infinity to that point."
+          },
+          {
+            "spec": "5.2.3 Gravitational Potential Energy",
+            "title": "Gravitational Potential Energy",
+            "definition": "The energy an object has due to its position in a gravitational field."
+          }
+        ]
+      },
+      {
+        "bigspec": "5.3 Electric Fields",
+        "definitions": [
+          {
+            "spec": "5.3.1 Electric Field Strength",
+            "title": "Electric Field Strength",
+            "definition": "The force experienced by a columb charge at a particular point within an electric field."
+          },
+          {
+            "spec": "5.3.3 Columb's Law",
+            "title": "Coulomb's Law",
+            "definition": "The force experienced by 2 charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them."
+          },
+          {
+            "spec": "5.3.7 Differences between Gravitational and Electric Fields",
+            "title": "Differences between Gravitational and Electric Fields",
+            "definition": "Gravitational fields are always attractive, electric fields can be attractive or repulsive. \nGravitational fields are always positive, electric fields can be positive or negative.\nElectrical fields can be shielded, gravitational fields cannot."
+          }
+        ]
+      },
+      {
+        "bigspec": "5.4 Capacitance",
+        "definitions": [
+          {
+            "spec": "5.4.1 Capacitance",
+            "title": "Capacitance",
+            "definition": "The charge stored per unit potential difference."
+          },
+          {
+            "spec":"5.4.3 The Farad",
+            "title":"The Farad",
+            "definition":"The capacitance of a capacitor when a charge of 1 coulomb is stored at a potential difference of 1 volt."
+          }
+        ]
+      },
+      {
+        "bigspec": "5.4 Magnetic Fields",
+        "definitions": [
+          {
+            "spec": "5.4.1 Magnetic Field Strength",
+            "title": "Magnetic Field Strength",
+            "definition": "The force experienced by a unit pole placed in the field."
+          },
+          {
+            "spec": "5.4.2 Magnetic Flux Density",
+            "title": "Magnetic Flux Density",
+            "definition": "The force experienced by a unit pole placed in the field."
+          },
+          {
+            "spec": "5.4.3 Magnetic Flux",
+            "title": "Magnetic Flux",
+            "definition": "The product of the magnetic flux density and the area of the coil."
           }
         ]
       }
+
+
     ]
   }

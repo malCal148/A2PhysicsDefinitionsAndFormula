@@ -1,44 +1,46 @@
 // Date: 03/06/2021
 import './pages/App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink, useLocation } from "react-router-dom";
 import Home from './pages/Home';
 import Formulas from './pages/Formula';
 
+const App = () => {
+  const location = useLocation();
 
-
-function TopNav() {
   return (
     <div>
-      <Router>
-          <nav class="topnav" id="topnav">
-        <h1>CCEA Spec - A2 Definitions</h1>
-        <div class="dropdown">
-            <Link class="active" to="/">Definitions</Link>
+      <nav className="topnav">
+        <h1> A2physics</h1>
+        <NavLink
+          to="/"
+          className={location.pathname === '/' ? 'active' : ''}
+        >
+          Definitions
+        </NavLink>
+        <NavLink
+          to="/formulas"
+          className={location.pathname === '/formulas' ? 'active' : ''}
+        >
+          Formulas
+        </NavLink>
+        {/* Add more links as needed */}
+      </nav>
 
-            </div>
-        <div class="dropdown">
-            <Link to="/Formulas">Formulas</Link>
-        </div>
-    </nav>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/formulas" element={<Formulas />} />
-    </Routes>
-    </Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/formulas" element={<Formulas />} />
+        {/* Add more routes as needed */}
+      </Routes>
     </div>
   );
-}
+};
 
-function App() {
-  return (
-    <>
+const AppWrapper = () => (
+  <Router>
+    <App />
+  </Router>
+);
 
-    <TopNav/>
-    </>
-  );
-}
-
-
-export default App;
+export default AppWrapper;
 
