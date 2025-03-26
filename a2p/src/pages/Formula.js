@@ -61,7 +61,6 @@ const Formulas = () => {
                 <h3>{formula.spec}</h3>
                 {formula.formula ? (
                   <p
-                    className="Formula"
                   >
                     <strong class="spec">Formula:</strong>{' '}
                     <span dangerouslySetInnerHTML={renderFormula(formula.formula)} />
@@ -82,6 +81,7 @@ const Formulas = () => {
             <span className="close" onClick={closeModal}>&times;</span>
             <h3>Formula Details</h3>
             {modalContent}
+            <span class = "highlightedText">Press anywhere to close</span>
           </div>
         </div>
       )}

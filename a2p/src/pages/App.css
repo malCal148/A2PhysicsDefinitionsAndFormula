@@ -29,6 +29,7 @@
   --main-font-color:#333;
   --inverse-main-font-color:#fff;
   --accent1:#ffbe0bff; /* Amber */
+  --accent1-light:#ffbe0b95; /* Light Amber */
   --accent2:#fb5607ff; /* Orange Pantone */
   --accent3:#ff006eff; /* Rose */
   --background-color:#f0f0f0; /* Light Gray */
@@ -121,7 +122,14 @@
   }
   
   .bigSpecPoint:nth-child(odd) {
-    background-color: #e0e0e0; /* Slightly darker gray for odd elements */
+    background-color: #e0e0e0; /* Slightly darker gray for 
+    odd elements */
+
+  }
+
+  .bigSpecPoint:nth-child(even) .formula{
+    box-shadow: 0 2px 1px var(--accent2);
+    border: var(--accent1) solid 1px;
   }
   
   h1 {
@@ -190,7 +198,7 @@
       font:var(--topnav-link-font-small);
       gap:0;
     }
-    
+
   }
   
   @media only screen and (min-width: 1200px) {
@@ -271,18 +279,47 @@
     }
   }
  
+  .formulas-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+  }
+
   .formula {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 40%;
     align-items: center;
     justify-content: space-between;
     margin: 1em 0;
-    padding: 1em;
+    padding: 0.5em;
     background-color: var(--card-background-color);
-    border-radius: 0; /* Remove border radius */
+    border-radius: 20px; /* Remove border radius */
     border: none; /* Remove border */
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   
+  }
+
+  .highlightedText{
+    color: var(--accent1);
+  }
+
+  .formula:hover {
+    color:var(--card-background-color);
+    background-color: var(--accent3) ;
+    
+  }
+
+  .formula:hover h3 {
+    color: var(--card-background-color);
+  }
+
+  .formula p {
+    font: var(--formula-font);
+    margin-bottom: 0.5em;
+    text-overflow: visible;
   }
 
   .formula .spec {
@@ -290,9 +327,16 @@
   }
   
   @media only screen and (max-width: 700px) {
+
+    .formulas-list {
+      flex-direction: column;
+      align-items: center;
+    }
+
     .formula {
       padding: 0.5em; /* Adjust padding for smaller screens */
       flex-direction: column;
+      width: 80%;
     }
   }
 
